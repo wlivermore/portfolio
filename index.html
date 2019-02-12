@@ -10,11 +10,13 @@
 
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto" rel="stylesheet">
 
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
   </head>
   <body>
+    <div class="container">
     <!-- first page -->
       <section id="firstpage" class="page">
 
@@ -22,28 +24,22 @@
         <h1>Will Livermore</h1>
         <p>I'm 75, from Orlando, Florida. I specialise in red text and moving
           cars around the country with only the strength of my arms.</p>
-
+        <hr>
       </section>
 
       <!-- second page -->
       <section id="secondpage" class="page">
         <h2>Here is what I make... </h2>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3 col md-3 col-sm-6 col-xs-12">
-        <img src="image/Screenshot (1).png">
-            </div>
-            <div class="col-lg-3 col md-3 col-sm-6 col-xs-12">
-        <img src="image/Screenshot (5).png">
-            </div>
-            <div class="col-lg-3 col md-3 col-sm-6 col-xs-12">
-        <img src="image/Screenshot (8).png">
-            </div>
-            <div class="col-lg-3 col md-3 col-sm-6 col-xs-12">
-        <img src="image/Screenshot (9).png">
-            </div>
-          </div>
+
+        <div class="image-grid">
+
+            <img src="image/Screenshot (1).png" class="img-fluid" alt="portfolio image">
+
+            <img src="image/Screenshot (5).png" class="img-fluid" alt="portfolio image">
+
+            <img src="image/Screenshot (8).png" class="img-fluid" alt="portfolio image">
         </div>
+
       </section>
 
       <!-- link bar -->
@@ -52,6 +48,8 @@
         <a id="about" href="#secondpage">about</a>
         <a id="contact" href="#">contact</a>
       </footer>
+    </div>
+
     <!--bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.buttflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>

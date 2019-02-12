@@ -1,27 +1,25 @@
 
 body {
-  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  font-family: "Roboto", "Lato", helvetica, arial, sans-serif;
   height: 300vh;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 h1 {
   position: absolute;
   width: 100%;
-  top: 17%;
+  top: 20%;
   margin-left: auto;
   margin-right: auto;
   margin-top:auto;
   margin-bottom:auto;
   text-align: center;
+  font-family: "Roboto", sans-serif;
   font-size: 10vw;
   color: black;
 }
 
 h2 {
-  font-family: "Benton Sans";
+  font-family: "Lato", sans-serif;
   position: absolute;
   width: 60%;
   margin-left: auto;
@@ -29,25 +27,24 @@ h2 {
   margin-top:auto;
   margin-bottom:auto;
   padding-left: 10px;
-  font-style: italic;
   top: 10%;
   font-size: 20px;
   color: #111;
 }
 
 p {
-  font-family: "Benton Sans";
+  font-family: "Lato";
+  float: right;
   padding-top: 80vh;
   padding-left: 5%;
   color: red;
 }
 
 hr {
-  margin-top: 0px;
-  margin-bottom: 0px;
   position: absolute;
-  width: 80%;
-  top: 0px;
+  margin: auto;
+  width: 100%;
+  bottom: 0px;
   border: 1px dotted grey;
 }
 
@@ -58,6 +55,7 @@ hr {
 
 #secondpage {
   position: relative;
+  margin: auto;
   height: 100vh;
 
 }
@@ -68,9 +66,17 @@ a {
 }
 
 img {
-  width: 500px;
-  float: right;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 10px 20px 10px;
+  max-width: 500px;
 }
+
+.image-grid {
+  position: absolute;
+  top: 75px;
+}
+
 
 #about {
   margin-top: 10px;
