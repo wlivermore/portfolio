@@ -1,0 +1,97 @@
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  height: 300vh;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  position: absolute;
+  width: 100%;
+  top: 17%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:auto;
+  margin-bottom:auto;
+  text-align: center;
+  font-size: 10vw;
+  color: black;
+}
+
+h2 {
+  font-family: "Benton Sans";
+  position: absolute;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:auto;
+  margin-bottom:auto;
+  padding-left: 10px;
+  font-style: italic;
+  top: 10%;
+  font-size: 20px;
+  color: #111;
+}
+
+p {
+  font-family: "Benton Sans";
+  padding-top: 80vh;
+  padding-left: 5%;
+  color: red;
+}
+
+hr {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: absolute;
+  width: 80%;
+  top: 0px;
+  border: 1px dotted grey;
+}
+
+#firstpage {
+  position: relative;
+  height: 100vh;
+}
+
+#secondpage {
+  position: relative;
+  height: 100vh;
+
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+img {
+  width: 500px;
+  float: right;
+}
+
+#about {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+#contact {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: right;
+}
+
+footer {
+  background: rgba(192,192,192,0.15);
+  height: auto;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
