@@ -2,41 +2,36 @@
 body {
   font-family: "Roboto", "Lato", helvetica, arial, sans-serif;
   height: 300vh;
+  overflow-x: hidden;
 }
 
 h1 {
   position: absolute;
   width: 100%;
-  top: 20%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top:auto;
-  margin-bottom:auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 10vw;
   color: black;
 }
 
-h2 {
+#introblock h2 {
   font-family: "Lato", sans-serif;
   position: absolute;
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top:auto;
-  margin-bottom:auto;
-  padding-left: 10px;
-  top: 10%;
+  top: 5px;
+  left:25%;
+  transform: translate(-50%);
   font-size: 20px;
   color: #111;
 }
 
-p {
-  font-family: "Lato";
-  float: right;
-  padding-top: 80vh;
-  padding-left: 5%;
+#introblock p {
+  font-family: "Lato", serif;
+  position: absolute;
+  bottom: 0%;
+  left: 20%;
   color: red;
 }
 
@@ -46,6 +41,19 @@ hr {
   width: 100%;
   bottom: 0px;
   border: 1px dotted grey;
+}
+
+#introblock {
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 200px;
+  width: 100vw;
+  background-color: white;
+
+
 }
 
 #firstpage {
@@ -88,6 +96,15 @@ img {
   margin-top: 10px;
   margin-bottom: 10px;
   float: right;
+}
+
+#will {
+  height: 400px;
+  position: absolute;
+  top: 100vh;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  border-radius: 100%;
 }
 
 footer {
